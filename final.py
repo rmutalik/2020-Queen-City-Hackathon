@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 
-df = pd.read_csv('C:\\Users\\Cameron.Shadmehry\\Misc\\Hackathon\\Info\\training.csv') #Read in Training file
+df = pd.read_csv('..\\training.csv') #Read in Training file
 cut = ['Transit_Ridership_Total_2014',
  'Fire_Call_Rate_2017',
  'Property_Crime_Rate_2017',
